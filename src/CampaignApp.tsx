@@ -120,6 +120,7 @@ const CampaignApp: React.FC = () => {
       console.log(campaign)
       // Submit data
     } else {
+      alert('Vui lòng điền đúng và đầy đủ thông tin')
       setCampaign({ ...campaign })
     }
   }
